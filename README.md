@@ -1,6 +1,6 @@
 # MT-CloudComputing
 
-Heroku Cli
+#Heroku Cli
 
 CMDs - https://devcenter.heroku.com/articles/heroku-cli-commands
 
@@ -10,9 +10,13 @@ heroku login
 
 heroku addons --all
 heroku apps
+
 heroku domains
+
 heroku apps:errors
+
 heroku apps:info 
+
 heroku buildpacks
 
 # specify a buildpack
