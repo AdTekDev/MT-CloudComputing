@@ -26,3 +26,13 @@ heroku apps:info
 
 # nếu đã có git trên heroku thì clone xuống local chỉnh sửa # rồi push lên lại 
 heroku git:clone -a appmt2022
+
+
+// Yeu cau 
+// Thêm file Home.HTML - có hình mình + 1 anh/cô đẹp trai/gái
+Sửa code 
+
+function xulyhome (req, res) {
+    return res.sendFile( __dirname +  '/home.html' );
+}
+
