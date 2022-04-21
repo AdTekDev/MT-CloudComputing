@@ -1,0 +1,25 @@
+# Heroku CLI - https://devcenter.heroku.com/articles/heroku-command-line
+
+
+# Git - CODE Repo
+git init
+git add .
+git commit -m "3 - Code ALL "
+
+
+
+
+# PUSH / Deploy
+heroku login  -i
+
+heroku create -a appmt2022 login-i
+git remote -v
+git push heroku master
+
+
+# Xem TT
+heroku apps:info
+
+
+# nếu đã có git trên heroku thì clone xuống local chỉnh sửa # rồi push lên lại 
+heroku git:clone -a appmt2022
