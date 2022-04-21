@@ -36,3 +36,5 @@ function xulyhome (req, res) {
     return res.sendFile( __dirname +  '/home.html' );
 }
 
+// - ví dụ thêm hình Mi Đu
+<img src="https://vnn-imgs-f.vgcloud.vn/2022/03/06/18/khan-gia-xon-xao-clip-kieu-minh-tuan-nhay-to-tinh-voi-midu-6.jpg">
