@@ -24,5 +24,7 @@ heroku buildpacks
   # create a staging app
   $ heroku apps:create example-staging --remote staging
   
+# set git remote
 set git remote heroku to https://git.heroku.com/example.git
+
 $ heroku git:remote -a example
