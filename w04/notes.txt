@@ -4,6 +4,9 @@
 # Git - CODE Repo
 git init
 git add .
+git config --global user.name  "Tu Nguyen"
+git config --global user.email  nguyenngtu777@gmail.com
+
 git commit -m "3 - Code ALL "
 
 
