@@ -1,0 +1,23 @@
+
+{% extends 'base-layout.html' %}
+
+{% block header %}
+ 
+<div class="col-4">
+  <h1>{% block title %} HOME page{% endblock %}</h1>
+</div>
+
+{% endblock %}
+
+{% block content %}
+<hr>
+    <div class="container">
+<P>
+    {{ username }}
+</P>
+<P>
+    {{ fullname }}
+</P>
+</div>
+
+{% endblock %}

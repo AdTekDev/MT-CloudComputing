@@ -1,0 +1,29 @@
+
+{% extends 'base-layout.html' %}
+
+{% block header %}
+ 
+      <div class="col-4">
+  <h1>{% block title %} ADD new product{% endblock %}</h1>
+  </div>
+
+{% endblock %}
+
+{% block content %}
+    <hr>
+    <div class="container">
+      <div class="col-4">
+		<form action="/addProduct" method="GET">
+            <div class="form-group">
+                <label for="productName">product Name</label>
+                <input type="text" class="form-control" id="productName" name="productName" >
+            </div>
+            <div class="form-group">
+                <label for="productPrice">product Price</label>
+                <input type="text" class="form-control" id="productPrice"  name="productPrice">
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'base-layout.html' %}
+
+{% block header %}
+  <h1>{% block title %}Products{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+ <hr>
+    <div class="container">
+      <div class="row text-center">
+		  {% for product in  productList %}
+		  
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="/static/images/400X200.gif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> {{ product["name"] }} </h5>
+              <p class="card-text"> {{ product["information"] }} </p>
+				<p> {{ product["price"] }} </p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+		  {% endfor %}
+
+{% endblock %}
+		  
+      </div>
+      
+    </div>
