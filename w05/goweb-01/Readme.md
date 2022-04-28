@@ -7,13 +7,12 @@
   git push heroku  master -ff
   
 
-******** Code sử dụng thư viện 
-"io/ioutil"
-
 STEPs:
 1. Tạo thư mục views
 2. Tạo tập tin home.html
-3. Trong mainweb.go, thay đổi trong Hàm homeHandle  
+3. Trong mainweb.go, khai báo thêm ******** Code sử dụng thư viện 
+"io/ioutil"
+4. Trong mainweb.go, thay đổi trong Hàm homeHandle  
     content, err := ioutil.ReadFile("./views/home.html")
     if err != nil {
         log.Println(err)
