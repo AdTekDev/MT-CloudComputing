@@ -14,10 +14,15 @@ STEPs:
 "io/ioutil"
 4. Trong mainweb.go, thay đổi trong Hàm homeHandle  
     content, err := ioutil.ReadFile("./views/home.html")
+    
     if err != nil {
+    
         log.Println(err)
+        
     }
+    
     w.Write(content)
+    
 5. Add, Commit, Push lại lên Git và Heroku
 6. Thêm about.html, contact.html
 7. Push, Lauch lại App 
