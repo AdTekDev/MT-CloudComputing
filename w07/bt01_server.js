@@ -42,25 +42,20 @@ async function  xulydata(req, res) {
 		const collection = client.db("TruongHoc").collection("SinhVien");
 		
 		
-        if (err) {
-            console.log("\n ERR: ", err);
+        	if (err) {
+			console.log("\n ERR: ", err);
 			x = "ERR";
-            process.exit(0);
-        }
-			console.log("\n Connected !");
-			/// --- Query
-			var dbObj = db.db("ATN_SHOP");
-			x = "Connect";
-		
-		
-		return res.send(x);
-	
+			//process.exit(0);
+			return res.send(x);
+		}
+		console.log("\n Connected !");
+		/// --- Query
+		var dbObj = db.db("ATN_SHOP");
+		x = "Connect";
+
 		client.close();
-	}
-	
-	);
-	
-	
+		return res.send(x);
+	} );
 }
 
 
