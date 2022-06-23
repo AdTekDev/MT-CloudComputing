@@ -6,11 +6,10 @@
 
 1. Which of the following six advantages enables small start-up companies to
 immediately start consuming IT services from public cloud vendors such as AWS?
-
-A. Trade capital expense for variable expense 
-B. Go global in minutes 
-C. Stop guessing capacity 
-D. Increase speed and agility 
+> A. Trade capital expense for variable expense 
+> B. Go global in minutes 
+> C. Stop guessing capacity 
+> D. Increase speed and agility 
 
 
 2. Which feature of cloud computing enables customers to deploy their resources
